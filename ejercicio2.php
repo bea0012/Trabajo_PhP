@@ -33,7 +33,7 @@
           echo "Su gasto de envío es gratuito";
         }
       }
-    ?>
+    ?> //en este ejercicio utilizamos un if para que salga cada mensaje según el valor que introduzca
 
   <div>
     <h3>Ejercicio 2:</h3>
@@ -65,7 +65,7 @@
           echo "";
       }
     }
-  ?>
+  ?> //aquí hacemos lo mismo que en ejercicio anterior pero esta vez con un switch utilizando un case para cada casuistica
 
   <div>
     <h3>Ejercicio 3:</h3>
@@ -96,7 +96,10 @@
       echo $mayor;
     }
 
-    ?>
+    ?> //hacemos 5 input diferentes que todos entren en el nombre "num[]" que es un array, luego utilizamos un array vacío "$mayor" el cual lo igualamos a otro array vacío
+       // así dentro del for (que da solo 5 vueltas porque solo tenemos 5 numeros) creamos un if donde comparamos cada número del array de numeros que introduce el usuario
+       //así cada vez que el valor es mayor que el que ya se encuentra en $mayor y si es mayor se cambia y almacena dentro $mayor
+       //al final imprimimos el número que se encuentre en $mayor
 
   <div>
     <h3>Ejercicio 4:</h3>
@@ -120,7 +123,7 @@
       }
     }
     
-    ?>
+    ?> //Utilizamos dos for each para recorrer la matriz de arrays e imprimir el elemento de cada fila y se vea de la manera que queremos
 
   <div>
     <h3>Ejercicio 5:</h3>
@@ -152,7 +155,7 @@
       }
     }
     
-    ?>
+    ?> //Utilizamos dos for para seleccionar las posiciones de la matriz y utilizarlos para sumar, lo almacenamos en otra matriz y luego la imprimimos como en el ejercicio anterior
     
 </body>
 </html>
